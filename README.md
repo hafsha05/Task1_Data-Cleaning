@@ -2,6 +2,7 @@
 ##Task 1: Data Cleaning
 Data Cleaning and Preprocessing Summary (Mall_Customers Dataset):
     In this task, I performed data cleaning and preprocessing on the Mall_Customers dataset to prepare it for analysis.
+    
 The following steps were completed:
 
 * Removed duplicates to ensure data integrity.
@@ -13,7 +14,7 @@ The following steps were completed:
 
   Interview Questions and Answer:
 
-  1. What are missing values and how do you handle them?
+1. What are missing values and how do you handle them?
       Missing values occur when no data is stored for a variable in a record.They can be handled by Using “Not Available” or similar text (for categorical data).
 2. How do you treat duplicate records?
       Duplicate records are identical rows that appear multiple times. They can be removed using Excel’s Remove Duplicates feature or in Python with drop_duplicates() to ensure each entry is unique.
